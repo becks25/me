@@ -64,7 +64,7 @@ app.controller('skillsCtrl', function($scope, MENU){
 
 
 $scope.colors = [
-  '#5BBBF3', '#3482AF', '#1EA0EB', '#275082', '#945EDB', '#8770C0', '#7139BC', '#5D23AA', '#C79DFF', '#76D289', '#237234', '#4EA25F', '#7DC58C', '#F7C63F', '#D19D0D', '#FFC31C', '#FFB100', '#f063d4', '#AE3D98', '#FF95EA', '#BD0E9A'];
+  '#5BBBF3', '#3482AF', '#1EA0EB', '#3586e9', '#945EDB', '#8770C0', '#7139BC', '#b685f6', '#C79DFF', '#76D289', '#237234', '#4EA25F', '#7DC58C', '#F7C63F', '#D19D0D', '#FFC31C', '#FFB100', '#f063d4', '#AE3D98', '#FF95EA', '#BD0E9A'];
 
 var width = document.querySelector('.sizing').clientWidth,
     height = width,
@@ -74,15 +74,15 @@ var color = d3.scale.ordinal()
     .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
 var colors = [
-  ['#5BBBF3', '#3482AF', '#1EA0EB', '#275082'],
-  ['#945EDB', '#8770C0', '#7139BC', '#5D23AA', '#C79DFF'],
+  ['#5BBBF3', '#3482AF', '#1EA0EB', '##3586e9'],
+  ['#945EDB', '#8770C0', '#7139BC', '#b685f6', '#C79DFF'],
   ['#76D289', '#237234', '#4EA25F', '#C9FFD4'],
   ['#F7C63F', '#D19D0D', '#FFC31C', '#FFDF86'],
   ['#f063d4', '#AE3D98', '#FF95EA', '#BD0E9A']
 ];
 
 var arc = d3.svg.arc()
-    .outerRadius(radius - 10)
+    .outerRadius(radius - 5)
     .innerRadius(radius - 70);
 
 var pie = d3.layout.pie()
