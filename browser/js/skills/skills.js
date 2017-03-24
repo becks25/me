@@ -83,7 +83,7 @@ var colors = [
 
 var arc = d3.svg.arc()
     .outerRadius(radius - 5)
-    .innerRadius(radius - 70);
+    .innerRadius(radius - 80);
 
 var pie = d3.layout.pie()
     .sort(null)
