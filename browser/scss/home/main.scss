@@ -2,7 +2,8 @@
 	margin-top:7%;
 
 	h1{
-		color: rgba($green3, 0.9);
+		color: rgba(gray, 0.9);
+		text-shadow: -1px 0px 0 #ffffff, 1px 0px 0 #000000, 0px 1px 0 #000000, 0px 0px 0 #ffffff;
 	}
 	.menu_home{
 		font-size:1.25em;
