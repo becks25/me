@@ -77,7 +77,7 @@ var colors = [
   ['#5BBBF3', '#3482AF', '#1EA0EB', '#3586e9'],
   ['#945EDB', '#8770C0', '#7139BC', '#b685f6', '#C79DFF'],
   ['#76D289', '#237234', '#4EA25F', '#C9FFD4'],
-  ['#F7C63F', '#D19D0D', '#FFC31C', '#FFDF86'],
+  ['#F7C63F', '#D19D0D', '#FFC31C', '#FFDF86', '#ffebb5'],
   ['#f063d4', '#AE3D98', '#FF95EA', '#BD0E9A']
 ];
 
@@ -110,10 +110,11 @@ var dataset = [
     { skill: 'D3', level: 25}
   ],
   [
-    { skill: 'Node/Express', level: 30},
+    { skill: 'Node/Express', level: 25},
     { skill: 'MongoDB', level: 30},
-    { skill: 'MySQL', level:20},
-    { skill: 'SQL', level: 20}
+    { skill: 'MySQL', level:17},
+    { skill: 'SQL', level: 18},
+    { skill: 'Objective C', level:10}
   ],
   [
     { skill: 'Mocha', level: 17},
