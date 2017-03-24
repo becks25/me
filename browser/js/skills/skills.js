@@ -112,9 +112,9 @@ var dataset = [
   [
     { skill: 'Node/Express', level: 25},
     { skill: 'MongoDB', level: 30},
+    { skill: 'Objective C', level:10},
     { skill: 'MySQL', level:17},
-    { skill: 'SQL', level: 18},
-    { skill: 'Objective C', level:10}
+    { skill: 'SQL', level: 18}
   ],
   [
     { skill: 'Mocha', level: 17},
