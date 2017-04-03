@@ -8,10 +8,9 @@ app.config(function ($stateProvider) {
 
 app.controller('projectsCtrl', function($scope){
   $scope.projects = [
-    { name: 'ConEd Smart AC Signup', link: 'https://conedsmartac.com/', blurb: 'A microsite that allows Con Edison customers to sign up for the Smart AC program', color: 'yellow2'},
-    { name: 'SpellBook', link: 'http://immense-temple-5922.herokuapp.com/', blurb: 'An interactive story book that teaches children basic programming logic', color: 'purple1'},
-    { name: 'Dance Party', link: 'https://dance-party.herokuapp.com/', blurb: 'An interactive dance party with some of your favorite Fullstack Academy characters', color:'green1'},
-    { hide: true},
-    { name: 'Global Citizen Festival', link: '/gcf', blurb: 'Action journey that encouraged users to take action to end extreme poverty', color:'pink1'}
+    { name: 'ConEd Smart AC Signup', link: 'https://conedsmartac.com/', blurb: 'A microsite that allows Con Edison customers to sign up for the Smart AC program', color: 'yellow2', date: 'Mar - Jun 2016'},
+    { name: 'SpellBook', link: 'http://immense-temple-5922.herokuapp.com/', blurb: 'An interactive story book that teaches children basic programming logic', color: 'purple1', date: 'Oct 2015'},
+    { name: 'Dance Party', link: 'https://dance-party.herokuapp.com/', blurb: 'An interactive dance party with some of your favorite Fullstack Academy characters', color:'green1', date: 'Sept 2015'},
+    { name: 'Global Citizen Festival', link: '/gcf', blurb: 'Action journey that encouraged users to take action to end extreme poverty', color:'pink1', date: 'Apr - Jul 2014'}
   ];
 });
