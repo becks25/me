@@ -80,7 +80,7 @@ app.controller('resumeCtrl', function($scope){
       },
       { 
         label: 'Freelance Web Design', 
-        dates: 'Mar 2014 - present', 
+        dates: 'Mar 2014 - Jan 2016', 
         title: '', 
         flip: true, 
         back: 'Design and build custom pages. Tailored each website to individual client\'s needs and desired style.', 
@@ -152,7 +152,7 @@ app.controller('resumeCtrl', function($scope){
     $scope.volunteer = [
       { 
         label: 'Lead Developer', 
-        dates: 'November 2015 - present', 
+        dates: 'November 2015 - January 2016', 
         title: 'Nomprofits', 
         flip: true, 
         back: 'Built a full website, using the MEAN stack for a budding nonprofit.  Created a custom CMS, suited to the needs of the founder.', 
@@ -163,7 +163,7 @@ app.controller('resumeCtrl', function($scope){
         dates: 'Oct 2015 - present', 
         title: 'SocialCoder', 
         flip: true, 
-        back: 'Create and edit pages and test security for different charities as needed.', 
+        back: 'Create and edit pages and test security for different international charities as needed.', 
         color: 'blue1'
       },
       
