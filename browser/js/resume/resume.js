@@ -149,7 +149,16 @@ app.controller('resumeCtrl', function($scope){
 
     ];
 
-    $scope.volunteer = [
+    $scope.volunteer = [   
+      { 
+        label: 'Volunteer', 
+        dates: '', 
+        title: '', 
+        flip: false, 
+        back: '', 
+        color: 'blue-text',
+        hide: true
+      },
       { 
         label: 'Lead Developer', 
         dates: 'November 2015 - January 2016', 
@@ -165,16 +174,6 @@ app.controller('resumeCtrl', function($scope){
         flip: true, 
         back: 'Create and edit pages and test security for different international charities as needed.', 
         color: 'blue1'
-      },
-      
-      { 
-        label: 'Volunteer', 
-        dates: '', 
-        title: '', 
-        flip: false, 
-        back: '', 
-        color: 'blue-text',
-        hide: true
       },
       { 
         label: 'Buddy', 
