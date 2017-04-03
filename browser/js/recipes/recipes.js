@@ -18,7 +18,7 @@ app.controller('recipesCtrl', function($scope){
     { name: 'Sweet Potato Fries', link: 'http://www.foodnetwork.com/recipes/paula-deen/baked-sweet-potato-fries-recipe.html'},
     { name: 'Chicken Salad (my own recipe)', link: '#'},
     { name: 'Brussel Sprouts', link: 'http://steamykitchen.com/27757-roasted-brussels-sprouts-with-sweet-chili-sauce-recipe-video.html'},
-    { name: 'All vegetables, in general', link: '#'}
+    { name: 'All Vegetables (in general)', link: '#'}
   ];
 
   $scope.mains = [
