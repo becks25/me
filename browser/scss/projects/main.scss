@@ -1,7 +1,12 @@
 .full-width-img{
 	width:100%;
+	
 }
 
+.mostly-width-img{
+	width:70%;
+	margin:auto;
+}
 .gameboard{
 	padding-bottom:1%;
 }
@@ -9,4 +14,20 @@
 .center{
 	text-align:center;
 	margin:auto;
+}
+
+.project{
+	a{
+		color:white;
+	}
+	
+	padding:2%;
+	min-height:100px;
+}
+
+.proj_details{
+	padding:3%;
+	min-height:100px;
+	text-align:left;
+	border-width:3px;
 }
