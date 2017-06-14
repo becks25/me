@@ -46,7 +46,7 @@ app.controller('resumeCtrl', function($scope){
 
     $scope.experience = [
       { 
-        label: 'Web Developer', 
+        label: 'Senior Software Engineer', 
         dates: 'Feb 2016 - present', 
         title: 'ThinkEco Inc.', 
         flip: true, 
@@ -158,6 +158,14 @@ app.controller('resumeCtrl', function($scope){
         back: '', 
         color: 'blue-text',
         hide: true
+      },
+      {
+        label: 'Mentor',
+        dates: 'June 2017',
+        title: 'Mentor Mixers NY',
+        flip: true,
+        back: 'Joined hundreds of tech mentors and tech professionals to meet, teach, network, and grab drinks in Brooklyn, NY.',
+        color: 'blue2'
       },
       { 
         label: 'Lead Developer', 
