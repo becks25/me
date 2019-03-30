@@ -28,8 +28,16 @@ body{
 	font-family: $font-default;
 }
 
-#main{
-		padding-top:12%;
+@media screen and (min-width: 992px) {
+	#main{
+		padding-top:8%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	#main{
+		padding-top:13%;
+	}
 }
 
 h1, h3{

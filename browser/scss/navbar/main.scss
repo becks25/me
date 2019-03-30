@@ -1,6 +1,10 @@
 .navbar{
 	background-color: white;
 	border-bottom:2px solid black;
+
+	.menu_home > a {
+		color: black;
+	}
 }
 
 @media screen and (max-width: 991px){
@@ -16,4 +20,10 @@
 
 li{
 	list-style-type:none;
+}
+
+@media screen and (min-width: 992px) {
+	#hamburger {
+		display: none;
+	}
 }
