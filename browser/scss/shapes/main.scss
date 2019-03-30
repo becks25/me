@@ -130,7 +130,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	padding:2%;
+	padding:8%;
 }
 
 .front {
@@ -303,5 +303,15 @@
 
 .pink1_border{
 	border: 2px solid $pink;
+	background-color:white;
+}
+
+.pink2{
+	background-color:$pink2;
+	color:white;
+}
+
+.pink2_border{
+	border: 2px solid $pink2;
 	background-color:white;
 }

@@ -1,29 +1,33 @@
-.chart{
-	border-left:2px solid $blue;
-	border-bottom:2px solid $blue;
+.skill {
+  background: white;
+  margin: 2%;
+  border: 5px 15px 5px 5px solid;
+  padding: 10px;
 
-	div{
-		color:white;
-		font-size:1.1em;
-	}
+  &.backend {
+    border-color: $blue;
+  }
 
-	background-color:white;
+  &.frontend {
+    border-color: $green2;
+  }
 
+  &.test {
+    border-color: $yellow;
+  }
+
+  p {
+    margin-left: 15px;
+    text-align: left;
+  }
 }
 
-.skill-box{
-	position:absolute;
-	top:0%;
-	z-index:1;
-	left:5%;
-	right: 5%;
-	border:3px solid black;
-	background-color:white;
-	padding:0 2% 2% 2%;
+@media (min-width: 992px){
 
+  .skill {
+    width: 28%;
+    vertical-align: top;
+    display: inline-block;
+  }
 }
 
-.skill-mb{
-	padding:1%;
-	color:white;
-}

@@ -45,9 +45,18 @@ app.controller('resumeCtrl', function($scope){
     ];
 
     $scope.experience = [
+      {
+        label: 'Software Engineer',
+        dates: 'Oct 2017 - present',
+        title: 'Amplify',
+        flip: true,
+        back: 'Worked on Shared Experiences team to ensure easy access for all clients across a variety of websites. Maintained and built applications with JavaScript, Java, React, Angular, Angular 2, and Node.',
+        color: 'green1'
+
+      },
       { 
         label: 'Senior Software Engineer', 
-        dates: 'Feb 2016 - present', 
+        dates: 'Feb 2016 - Sep 2017', 
         title: 'ThinkEco Inc.', 
         flip: true, 
         back: 'Build sites for customers and partners using Angular, Bootstrap, and JavaScript.  Ensure that all sites are cross-browser compatible and responsive across all platforms.', 
@@ -62,6 +71,14 @@ app.controller('resumeCtrl', function($scope){
         color: 'green3'
       },
       { 
+        label: 'Front End Web Developer and Designer', 
+        dates: 'Apr 2014 - May 2015', 
+        title: 'Global Citizen', 
+        flip: true, 
+        back: 'Created, edited and designed pages for globalcitizen.org. Ensured that the website is mobile and tablet friendly. Used Photoshop to create visually stimulating elements.', 
+        color: 'green3'
+      },
+      { 
         label: 'Experience', 
         dates: '', 
         title: '', 
@@ -69,14 +86,6 @@ app.controller('resumeCtrl', function($scope){
         back: '', 
         color: 'green-text',
         hide: true
-      },
-      { 
-        label: 'Front End Web Developer and Designer', 
-        dates: 'Apr 2014 - May 2015', 
-        title: 'Global Citizen', 
-        flip: true, 
-        back: 'Created, edited and designed pages for globalcitizen.org. Ensured that the website is mobile and tablet friendly. Used Photoshop to create visually stimulating elements.', 
-        color: 'green3'
       },
       { 
         label: 'Freelance Web Design', 
@@ -122,6 +131,14 @@ app.controller('resumeCtrl', function($scope){
         color: 'yellow-text',
         hide: true
       },
+      {
+        label: 'Project Lead',
+        dates: 'March 2019 - present',
+        title: 'New York Cares',
+        flip: true,
+        back: 'Lead a wide variety of New York Cares projects, helping the disadvantaged living in New York City.',
+        color: 'yellow2'
+      },
       { 
         label: 'Hospitality Executive', 
         dates: 'Dec 2009 - May 2013', 
@@ -160,12 +177,20 @@ app.controller('resumeCtrl', function($scope){
         hide: true
       },
       {
-        label: 'Mentor',
-        dates: 'June 2017',
-        title: 'Mentor Mixers NY',
+        label: 'SAT Tutor',
+        dates: 'October 2018 - March 2019',
+        title: 'New York Cares',
         flip: true,
-        back: 'Joined hundreds of tech mentors and tech professionals to meet, teach, network, and grab drinks in Brooklyn, NY.',
-        color: 'blue2'
+        back: 'Tutored two high school students weekly to prepare them for the SATs and college.',
+        color: 'blue3',
+      },
+      {
+        label: 'Talent Entrance Overseer',
+        dates: 'September 2013 - present',
+        title: 'Global Citizen Festival',
+        flip: true,
+        back: 'Assist at the annual Global Citizen Festival by working with security at the talent entrance.',
+        color: 'blue1'
       },
       { 
         label: 'Lead Developer', 
@@ -181,7 +206,7 @@ app.controller('resumeCtrl', function($scope){
         title: 'SocialCoder', 
         flip: true, 
         back: 'Create and edit pages and test security for different international charities as needed.', 
-        color: 'blue1'
+        color: 'blue2'
       },
       { 
         label: 'Buddy', 
