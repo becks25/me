@@ -1,3 +1,7 @@
+.skills {
+  text-align: center;
+}
+
 .skill {
   background: white;
   margin: 2%;
@@ -5,15 +9,18 @@
   padding: 10px;
 
   &.backend {
-    border-color: $blue;
+    border-color: $blue2;
+    background: $blue3;
   }
 
   &.frontend {
     border-color: $green2;
+    background: rgba($green3, .6);
   }
 
   &.test {
-    border-color: $yellow;
+    border-color: $yellow2;
+    background: $yellow;
   }
 
   p {
@@ -23,9 +30,8 @@
 }
 
 @media (min-width: 992px){
-
   .skill {
-    width: 28%;
+    width: 29%;
     vertical-align: top;
     display: inline-block;
   }
