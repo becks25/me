@@ -1,11 +1,6 @@
 app.config(function ($stateProvider) {
     $stateProvider.state('gcfestival', {
         url: '/gcf',
-        templateUrl: 'js/individual_projects/gcfestival/gcfestival.html',
-        controller: 'gcfCtrl'
+        templateUrl: 'js/individual_projects/gcfestival/gcfestival.html'
     });
-});
-
-app.controller('gcfCtrl', function($scope){
-  
 });

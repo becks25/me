@@ -7,6 +7,5 @@ app.config(function ($stateProvider) {
 });
 
 app.controller('homeCtrl', function($scope, MENU){
-  console.log('home');
   $scope.menu = MENU;
 });
