@@ -1,10 +1,12 @@
-.contact_options{
-		display:inline-block;
-		padding:1%;
+.contact_options {
+	display:inline-block;
+	padding:1%;
 
-		a{
-			color: rgba(gray, 0.9);
-		}
-
-		
+	a{
+		color: rgba(gray, 0.9);
 	}
+}
+
+.no-pad {
+	padding: 0;
+}

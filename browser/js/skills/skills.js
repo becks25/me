@@ -7,32 +7,49 @@ app.config(function ($stateProvider) {
 });
 
 app.controller('skillsCtrl', function($scope, MENU){
-  $scope.front = [
-    'JavaScript',
-    'JSData',
-    'Angular',
-    'React',
-    'ES6',
-    'HTML',
-    'CSS/SASS',
-    'Bootstrap'
-  ];
-
-  $scope.back = [
-    'Node/Express',
-    'MongoDB',
-    'SQL',
-    'MySQL',
-    'Postgres',
-    'Java'
-  ];
-
   $scope.testing = [
+    'Chai',
+    'Jasmine',
+    'Jest',
     'Karma',
     'Mocha',
-    'Chai',
-    'Webdriver.io',
-    'Jest',
-    'Jasmine'
+    'Selenium',
+    'Sitespeed.io',
+    'Webdriver.io'
+  ];
+
+  $scope.frameworks = [
+    'Angular',
+    'AngularJS',
+    'Bootstrap',
+    'JSData',
+    'React',
+    'Redux'
+  ];
+
+  $scope.languages = [
+    'CSS/SASS',
+    'ES6',
+    'Express',
+    'HTML',
+    'JavaScript',
+    'MongoDB',
+    'MySQL',
+    'Node',
+    'Postgres',
+    'Python',
+    'Ruby',
+    'SQL',
+    'Sequelize',
+    'TypeScript',
+    'Vue'
+  ];
+
+  $scope.delivery = [
+    'AWS EC2',
+    'AWS S3',
+    'Docker',
+    'Git',
+    'Jenkins',
   ];
 });

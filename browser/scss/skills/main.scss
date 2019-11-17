@@ -23,6 +23,11 @@
     background: $yellow;
   }
 
+  &.delivery {
+    border-color: $pink2;
+    background: $pink;
+  }
+
   p {
     margin-left: 15px;
     text-align: left;
@@ -33,7 +38,15 @@
   .skill {
     width: 29%;
     vertical-align: top;
-    display: inline-block;
+    float: left;
+  }
+
+  .frontend {
+    margin-bottom: 0;
+  }
+
+  .delivery {
+    margin-top: -5%;
   }
 }
 
